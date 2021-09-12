@@ -1,0 +1,23 @@
+.navbar-brand {
+	height: auto;
+}
+.navbar-brand h1{
+	line-height: .75;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	background-color: #a4aab0;
+	color: black;
+}
+#nav-list a {
+	color: black;
+}
+
+.container-fluid {
+	background-color: #aba3a2;
+	margin: 0 10px 0 10px;
+}
