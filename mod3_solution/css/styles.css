@@ -5,6 +5,7 @@
 	line-height: .75;
 	margin-top: 0;
 	margin-bottom: 0;
+	color: black;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
@@ -19,5 +20,12 @@
 
 .container-fluid {
 	background-color: #aba3a2;
+	padding-bottom: 20px;
 	margin: 0 10px 0 10px;
+}
+
+@media (max-width: 767px) {
+	.container-fluid {
+		margin: 10px 70px 0 70px;
+	}
 }
